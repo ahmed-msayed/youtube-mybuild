@@ -36,5 +36,6 @@ class Model {
         
         // Kick off the task
         dataTask.resume()
+        
     }
 }
