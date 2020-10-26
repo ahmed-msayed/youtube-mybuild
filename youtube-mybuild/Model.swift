@@ -31,7 +31,21 @@ class Model {
                 return
             }
             
+            // error handling "do catch try" because it may throw an error
+            do {
             // Parsing the data into video objects
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            
+            let response = try decoder.decode(Responce.self, from: data!)
+                
+            dump(response)
+                // breakpoint dump and write in console "po response.items![0]"
+                
+            }
+            catch {
+                
+            }
         }
         
         // Kick off the task
