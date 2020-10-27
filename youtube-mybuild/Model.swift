@@ -42,10 +42,10 @@ class Model {
                 // Parsing the data into video objects
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
-            
+                
                 let response = try decoder.decode(Responce.self, from: data!)
                 
-            
+                
                 
                 if response.items != nil {
                     // to call and update the user interface through the main thread
@@ -53,7 +53,7 @@ class Model {
                         // Call "videosFetched" methof of the delegate
                         self.delegate?.videosFetched(response.items!)
                     }
-
+                    
                 }
                 
                 dump(response)
