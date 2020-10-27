@@ -11,7 +11,7 @@ import Foundation
 // To grab the items container from JSON
 
 struct Responce: Decodable {
-    var item: [Video]?
+    var items: [Video]?
     
     enum CodingKeys: String, CodingKey {
         case items
@@ -21,6 +21,6 @@ struct Responce: Decodable {
         
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
-        self.item = try container.decode([Video].self, forKey: .items)
+        self.items = try container.decode([Video].self, forKey: .items)
     }
 }

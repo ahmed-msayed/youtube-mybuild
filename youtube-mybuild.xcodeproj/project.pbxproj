@@ -65,16 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				62E742CC2544D87D007B2C43 /* AppDelegate.swift */,
-				62E742CE2544D87D007B2C43 /* ViewController.swift */,
 				62E742D02544D87D007B2C43 /* Main.storyboard */,
-				62E742D32544D87E007B2C43 /* Assets.xcassets */,
-				62E742D52544D87E007B2C43 /* LaunchScreen.storyboard */,
-				62E742D82544D87E007B2C43 /* Info.plist */,
+				62E742CE2544D87D007B2C43 /* ViewController.swift */,
 				623FB1FB2545A6D7003DA9E5 /* Constants.swift */,
 				623FB1FD2545C6D9003DA9E5 /* Video.swift */,
 				623FB1FF2545C774003DA9E5 /* Model.swift */,
-				62392408254620A100DBFEBB /* ConstantsTemplate.swift */,
 				624AEABF25470349003905DB /* Response.swift */,
+				62392408254620A100DBFEBB /* ConstantsTemplate.swift */,
+				62E742D32544D87E007B2C43 /* Assets.xcassets */,
+				62E742D52544D87E007B2C43 /* LaunchScreen.storyboard */,
+				62E742D82544D87E007B2C43 /* Info.plist */,
 			);
 			path = "youtube-mybuild";
 			sourceTree = "<group>";
