@@ -56,7 +56,7 @@ class Model {
                     
                 }
                 
-                dump(response)
+                //dump(response)
                 // breakpoint dump and write in console "po response.items![0]"
                 
             }
